@@ -90,7 +90,12 @@
 
     <HBox alignment="CENTER" prefWidth="300" prefHeight="50.0" spacing="10">
         <children>
-            <Button prefWidth="110.0" text="0" onAction="#processNumbers">
+            <Button prefWidth="50.0" text="C" onAction="#clear">
+                <font>
+                    <Font size="18.0"></Font>
+                </font>
+            </Button>
+            <Button prefWidth="50.0" text="0" onAction="#processNumbers">
                 <font>
                     <Font size="18.0"></Font>
                 </font>
